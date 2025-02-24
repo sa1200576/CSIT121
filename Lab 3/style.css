@@ -1,0 +1,38 @@
+
+#main-header {
+    background-color: rgb(240, 191, 151);
+    
+}
+
+
+
+body {
+    background-color: rgba(92, 209, 102, 0.37);
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(8, 8, 8);
+    text-align: center;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 51, 0);
+
+}
+a {
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-stretch: extra-expanded;
+
+}
+ul {
+    color: rgb(255, 22, 22);
+}
+
+ol {
+    color: red;
+}
+#third-p{
+    color: red;
+    text-align: center;
+}
