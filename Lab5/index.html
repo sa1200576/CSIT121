@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Learning Web Standards</title>
+</head>
+<body>
+    <script>
+        function changeStylesheet(sheet) {
+            document.querySelector('link[rel="stylesheet"]').setAttribute('href', sheet);
+        }
+    </script>
+    <div class="page">
+        <header id="main-header">
+            <h1>Learning Web Standards and Adding Layouts</h1>
+        </header>
+        <main>
+            <section>
+                <article>
+                    <h2>Lab 5</h2>
+                    <p>This is my first try at putting my lessons into practice. It seemed really confusing and hard at first, but I got the understanding once I started using the tools for their intended purpose.</p>
+                    <h3>Things I Learned from Lab 3</h3>
+                    <p>In this lab, I learned how to give IDs to each element I use, such as paragraphs and headings. This tool lets me uniquely identify each of my paragraphs and edit them as I like. I also learned how to change fonts and background colors.</p>
+                    <h4>These are what I learned:</h4>
+                    <ul>
+                        <li>Bullet Points</li>
+                    </ul>
+                    <p id="third-p">No bullet points</p>
+                    <ol>
+                        <li>And Numbers</li>
+                    </ol>
+                </article>
+            </section>
+            <aside>
+                <h2>Sidebar</h2>
+                <p>Layout options:</p>
+                <ul>
+                    <li><button onclick="changeStylesheet('style.css')">Normal</button></li>
+                    <li><button onclick="changeStylesheet('flex1.css')">Flex Full</button></li>
+                    <li><button onclick="changeStylesheet('flex2.css')">Grid Full</button></li>
+                </ul>
+            </aside>
+        </main>
+        <footer>
+            <h4>I Learned These From:</h4>
+            <ul>
+                <li><a href="https://www.w3schools.com/html/html5_semantic_elements.asp">W3Schools</a></li>
+                <li><a href="https://ccbcmd.brightspace.com/d2l/le/content/152450/viewContent/6887160/View">02. Structuring Text Lesson</a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>
